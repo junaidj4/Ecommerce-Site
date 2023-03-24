@@ -1,0 +1,41 @@
+.featured-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.heading p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.end-button {
+  text-align: center;
+  justify-content: center;
+  margin-top: 70px;
+  padding: 10px 60px;
+  align-items: center;
+  margin-bottom: 50px;
+  background: #7700fc;
+  background: linear-gradient(to right, #7700fc 0%, #ba00e3 100%);
+}

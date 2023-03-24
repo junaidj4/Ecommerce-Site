@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.input-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.text {
+  background-color: #d8d8d8;
+  width: 50%;
+  height: 4.5rem;
+  padding: 0 0 0 15px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+.text ::placeholder {
+  text-transform: none;
+  color: #6b6c71;
+  font-family: "Urbanist";
+  font-weight: 600;
+}
+input {
+  background-color: transparent;
+  height: 100%;
+  font-size: 1 rem;
+  width: 100%;
+  margin-left: 10px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #d3a253;
+  background-color: #1d1837;
+  padding: 0 45px;
+  height: 4.5rem;
+  cursor: pointer;
+}

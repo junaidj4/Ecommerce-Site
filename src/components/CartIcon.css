@@ -1,0 +1,24 @@
+.cart-trolley--link {
+  position: relative;
+  margin-left: 25px;
+}
+
+.cart-trolley {
+  position: relative;
+  font-size: 2.2rem;
+  color: #f3f8f9;
+}
+
+.cart-total--item {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  background-color: #000;
+  color: #f3f8f9;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  top: -20%;
+  left: 70%;
+  background-color: #b500e5;
+}

@@ -1,0 +1,38 @@
+.container {
+  background-image: url("../images/Heading_Banner.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.hero-section-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-section h1 {
+  color: #f3f8f9;
+  font-size: 40px;
+  width: 100%;
+  font-weight: 600;
+  padding: 60px;
+  padding-bottom: 30px;
+}
+
+.intro-section p {
+  color: #f3f8f9;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.image-section {
+  margin-top: 40px;
+}
