@@ -1,7 +1,7 @@
 .ad-list {
   display: flex;
   /* align-items: center; */
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .left-side {
@@ -10,10 +10,38 @@
   align-items: center;
   /* justify-content: center; */
 }
-.left-side p {
-  margin-top: 30px;
+.left-side #head {
+  margin-top: 35px;
   font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+.filter {
+  background-color: #dbdfe0;
+}
+
+.left-side #top-heading {
+  font-size: 16px;
+  margin-top: 24px;
+}
+.left-side h3 {
+  font-weight: 800;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.left-side p {
+  margin-left: 50px;
+  margin-top: 5px;
   font-weight: 500;
+  color: #6e6e6e;
+  margin-right: 100px;
+}
+#selected-filter {
+  font-weight: 700;
+  font-size: 16px;
+  color: #01020b;
 }
 
 .right-side {
@@ -21,6 +49,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-left: 110px;
 }
 
 .ad-section {
