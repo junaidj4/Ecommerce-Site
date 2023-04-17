@@ -7,12 +7,12 @@
 .left-side {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   /* justify-content: center; */
 }
 .left-side #head {
-  margin-top: 35px;
-  font-size: 16px;
+  margin-top: 55px;
+  font-size: 19px;
   font-weight: 600;
   margin-bottom: 50px;
   margin-left: 0px;
@@ -30,6 +30,7 @@
   margin-left: 30px;
   margin-bottom: 15px;
   margin-top: 20px;
+  font-size: 19px;
 }
 .left-side p {
   margin-left: 50px;
@@ -56,10 +57,13 @@
   display: flex;
 }
 
+.ad-section p {
+  margin-top: 50px;
+}
 #title {
   margin-right: 15px;
   font-weight: 600;
-  margin-top: 30px;
+
   font-size: 16px;
 }
 #selected {
@@ -69,7 +73,6 @@
   background-color: #7700fc;
   padding: 5px 20px 5px 20px;
   cursor: pointer;
-  margin-top: 30px;
 }
 #normal {
   background-color: #fff;
@@ -80,11 +83,10 @@
   border: #3d3e3e solid 0.5px;
   margin-left: 1px;
   cursor: pointer;
-  margin-top: 30px;
 }
 .ad-grid {
   display: grid;
   grid-template-columns: auto auto;
   gap: 5rem;
-  margin-top: 100px;
+  margin-top: 70px;
 }
