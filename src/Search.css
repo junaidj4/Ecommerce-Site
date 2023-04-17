@@ -47,7 +47,7 @@
 
 .right-side {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   flex-direction: column;
   margin-left: 110px;

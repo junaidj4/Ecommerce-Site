@@ -38,6 +38,7 @@ const Search = () => {
                   borderColor: "#01020B",
                   height: "1px",
                   width: "100%",
+                  marginTop: "10px",
                 }}
               />
               <h3>Price</h3>
