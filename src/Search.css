@@ -38,13 +38,26 @@
   font-weight: 500;
   color: #6e6e6e;
   margin-right: 100px;
+  cursor: pointer;
 }
 #selected-filter {
   font-weight: 700;
   font-size: 16px;
   color: #01020b;
 }
-
+.price-input {
+  background-color: #fff;
+  width: 50%;
+  height: 40px;
+  margin: 20px;
+  margin-left: 50px;
+}
+#max-limit {
+  margin-bottom: 50px;
+}
+#last-date {
+  margin-bottom: 20px;
+}
 .right-side {
   display: flex;
   align-items: flex-end;

@@ -42,6 +42,30 @@ const Search = () => {
                 }}
               />
               <h3>Price</h3>
+              <p>From</p>
+              <div className="price-input">
+                <input placeholder=" " />
+              </div>
+              <p>To</p>
+              <div className="price-input" id="max-limit">
+                <input placeholder=" " />
+              </div>
+              <hr
+                style={{
+                  background: "#01020B",
+                  color: "#01020B",
+                  borderColor: "#01020B",
+                  height: "1px",
+                  width: "100%",
+                  marginTop: "10px",
+                }}
+              />
+              <h3>Date Added</h3>
+              <p id="selected-filter">All Time</p>
+              <p>Past Week</p>
+              <p>Past Month</p>
+              <p>Past 6 Months</p>
+              <p id="last-date">Past Year</p>
             </div>
           </div>
           <div className="right-side">
