@@ -39,7 +39,52 @@ const TemplateDetails = () => {
             <Button3 id="addtocart">Add to Cart - $40</Button3>
             <Button2 id="preview">Live Preview</Button2>
           </div>
-          <div className="down"></div>
+          <div className="down">
+            <h3 id="main-head">Features:</h3>
+            <div className="features">
+              <ul>
+                <li>Responsive</li>
+                <li>HTML 5</li>
+                <li>Bootstrap</li>
+                <li>JQuery</li>
+                <li>Multi-purpose</li>
+                <li>Premium Fonts</li>
+              </ul>
+              <ul>
+                <li>Detailed Documentation</li>
+                <li>24/7 Support</li>
+                <li>Clean Code</li>
+                <li>JQuery</li>
+              </ul>
+            </div>
+            <h3>Bootstrap Version:</h3>
+            <div className="version-info">
+              <ul>
+                <li>Version 4.4x</li>
+              </ul>
+            </div>
+            <h3>Web Forms</h3>
+            <div className="forms">
+              <ul>
+                <li>Contact Form</li>
+                <li>Search Form</li>
+                <li>Registration Form</li>
+              </ul>
+            </div>
+            <h3>Images Included</h3>
+            <div className="image-info">
+              <ul>
+                <li>Yes</li>
+              </ul>
+            </div>
+            <h3>General Software Requirements</h3>
+            <div className="requirements">
+              <ul>
+                <li>Code Editing Tool</li>
+                <li>ZIP Unarchiver</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </>
