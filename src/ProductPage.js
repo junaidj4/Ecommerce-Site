@@ -1,6 +1,6 @@
 import React from "react";
 import Template_intro from "./components/Template_intro";
-const Profile = () => {
+const ProductPage = () => {
   return (
     <>
       <div>
@@ -10,4 +10,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default ProductPage;

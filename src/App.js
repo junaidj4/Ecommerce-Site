@@ -10,7 +10,7 @@ import ErrorPage from "./ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
-import Profile from "./Profile";
+import ProductPage from "./ProductPage";
 
 const App = () => {
   const theme = {
@@ -46,11 +46,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/featured" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/login" element={<Profile />} />
+          <Route path="/productpage" element={<ProductPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>
