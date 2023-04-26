@@ -1,0 +1,36 @@
+/* .image-top img {
+  width: 100%;
+} */
+
+.temp-top {
+  background-image: url("../images/Rectangle13.png");
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.secondary-details {
+  display: flex;
+  align-items: center;
+  margin-left: 18%;
+}
+#intro-heading {
+  font-size: 32px;
+  color: #f3f8f9;
+  /* margin-left: 346px; */
+  margin-left: 18%;
+  margin-top: 25px;
+}
+#intro-details {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f3f8f9;
+  padding: 0 25px 0 0;
+}
+#intro-price {
+  font-size: 32px;
+  color: #f3f8f9;
+  /* margin-left: 346px; */
+  margin-left: 18%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
