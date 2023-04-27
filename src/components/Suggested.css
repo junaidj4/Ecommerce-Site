@@ -1,0 +1,30 @@
+.suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  background-image: url("../images/Rectangle\ 49.png");
+  margin-bottom: 50px;
+}
+.main-title h2 {
+  color: #f3f8f9;
+  margin: 50px;
+}
+.ad-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.products-line {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10rem;
+}
+#arrow {
+  color: #f3f8f9;
+  font-size: 40px;
+  margin-left: 150px;
+  cursor: pointer;
+}
