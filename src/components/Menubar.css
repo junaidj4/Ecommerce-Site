@@ -1,7 +1,15 @@
 .menu {
   background-image: url("../images/Rectangle\ 78.png");
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
   justify-content: space-evenly;
+  /* margin: 0 130px; */
+  width: 87%;
 }
 .menu-item {
   display: flex;

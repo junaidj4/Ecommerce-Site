@@ -9,26 +9,28 @@ const Menubar = () => {
   return (
     <>
       <div className="menu">
-        <div className="menu-item" id="active">
-          <img src={pic} />
-          <h3>Dashboard</h3>
-        </div>
-        <div className="menu-item">
-          <img src={pic1} />
-          <h3>My Sites</h3>
-        </div>
+        <div className="items">
+          <div className="menu-item" id="active">
+            <img src={pic} />
+            <h3>Dashboard</h3>
+          </div>
+          <div className="menu-item">
+            <img src={pic1} />
+            <h3>My Sites</h3>
+          </div>
 
-        <div className="menu-item">
-          <img src={pic2} />
-          <h3>Profile</h3>
-        </div>
-        <div className="menu-item">
-          <img src={pic3} />
-          <h3>Settings</h3>
-        </div>
-        <div className="menu-item">
-          <img src={pic4} />
-          <h3>Support</h3>
+          <div className="menu-item">
+            <img src={pic2} />
+            <h3>Profile</h3>
+          </div>
+          <div className="menu-item">
+            <img src={pic3} />
+            <h3>Settings</h3>
+          </div>
+          <div className="menu-item">
+            <img src={pic4} />
+            <h3>Support</h3>
+          </div>
         </div>
       </div>
     </>

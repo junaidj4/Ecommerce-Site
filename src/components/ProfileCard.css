@@ -1,0 +1,22 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  height: 196px;
+  background-image: url("../images/Frame70.png");
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  margin-right: 48px;
+}
+.profile-card h2 {
+  color: #f3f8f9;
+  font-size: 22px;
+}
+
+.profile-card h3 {
+  color: #f3f8f9;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 10px;
+}

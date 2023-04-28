@@ -1,0 +1,26 @@
+.overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  /* margin: 0 280px; */
+}
+.section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+#overview-text {
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
