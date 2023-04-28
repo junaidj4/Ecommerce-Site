@@ -11,6 +11,7 @@ import { GlobalStyle } from "./GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import ProductPage from "./ProductPage";
+import ProfileDashboard from "./ProfileDashboard";
 
 const App = () => {
   const theme = {
@@ -51,6 +52,7 @@ const App = () => {
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/productpage" element={<ProductPage />} />
+          <Route path="/profile/dashboard" element={<ProfileDashboard />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

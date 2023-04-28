@@ -1,0 +1,25 @@
+.menu {
+  background-image: url("../images/Rectangle\ 78.png");
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  cursor: pointer;
+}
+.menu-item h3 {
+  color: #f3f8f9;
+  font-weight: 700;
+  margin-left: 5px;
+}
+#active {
+  background: #7700fc;
+  background: linear-gradient(to right, #7700fc 0%, #ba00e3 100%);
+  border-radius: 10px;
+  padding: 10px 0;
+  height: 50px;
+  margin-top: 17px;
+}
