@@ -15,7 +15,7 @@ const HeroSection = () => {
             <p>
               Select one from the following categories or Use the search bar
             </p>
-            <NavLink>
+            <NavLink to="/search" className="navbar-link product--link">
               <Button>Ecommerce</Button>
               <Button>Professional</Button>
               <Button>Social Media</Button>

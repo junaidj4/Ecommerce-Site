@@ -19,7 +19,9 @@ const Header = () => {
         <div className="upside">
           <Searchbar />
           <CartIcon />
-          <p>Login / Sign Up</p>
+          <NavLink to="/login" className="navbar-link login--link">
+            <p>Login / Sign Up</p>
+          </NavLink>
         </div>
         <div className="downside">
           <p>
@@ -66,7 +68,7 @@ padding: 0 4.8rem;
   .upside p {
     color: ${({ theme }) => theme.colors.white};
     font-size: 14px;
-    width: 100%;
+    width: 150px;
     display: flex;
     align-items: center;
     font-family: "Urbanist";
