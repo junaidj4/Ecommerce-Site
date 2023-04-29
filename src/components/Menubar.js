@@ -5,19 +5,24 @@ import pic1 from "../images/gg_browser.png";
 import pic2 from "../images/material-symbols_person.png";
 import pic3 from "../images/settings.png";
 import pic4 from "../images/ps_headset.png";
+import { NavLink } from "react-router-dom";
 const Menubar = () => {
   return (
     <>
       <div className="menu">
         <div className="items">
-          <div className="menu-item" id="active">
-            <img src={pic} />
-            <h3>Dashboard</h3>
-          </div>
-          <div className="menu-item">
-            <img src={pic1} />
-            <h3>My Sites</h3>
-          </div>
+          <NavLink to="/profile/dashboard">
+            <div className="menu-item" id="active">
+              <img src={pic} />
+              <h3>Dashboard</h3>
+            </div>
+          </NavLink>
+          <NavLink to="/profile/sites">
+            <div className="menu-item">
+              <img src={pic1} />
+              <h3>My Sites</h3>
+            </div>
+          </NavLink>
 
           <div className="menu-item">
             <img src={pic2} />

@@ -12,6 +12,7 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import ProductPage from "./ProductPage";
 import ProfileDashboard from "./ProfileDashboard";
+import ProfileSites from "./ProfileSites";
 
 const App = () => {
   const theme = {
@@ -53,6 +54,7 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
           <Route path="/productpage" element={<ProductPage />} />
           <Route path="/profile/dashboard" element={<ProfileDashboard />} />
+          <Route path="/profile/sites" element={<ProfileSites />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

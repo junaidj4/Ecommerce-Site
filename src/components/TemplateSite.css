@@ -1,0 +1,14 @@
+.temp-details {
+  display: flex;
+  align-items: center;
+}
+.temp-details img {
+  height: 50px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.temp-details p {
+  font-weight: 700;
+  padding-right: 150px;
+}
