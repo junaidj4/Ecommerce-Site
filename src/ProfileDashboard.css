@@ -24,3 +24,19 @@
   align-items: center;
   width: 100%;
 }
+
+.announcements {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+#announcements-text {
+  font-weight: 700;
+}
+
+.gray-area {
+  background-color: #e8eced;
+  border-radius: 19px;
+}

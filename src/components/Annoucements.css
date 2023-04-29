@@ -1,0 +1,17 @@
+.line {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  margin-top: 10px;
+}
+.line img {
+  margin-left: 15px;
+}
+.line p {
+  font-weight: 700;
+  margin-left: 15px;
+}
+#time {
+  color: #6b6d6d;
+  margin-left: 80px;
+}

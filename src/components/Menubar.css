@@ -27,7 +27,7 @@
   background: #7700fc;
   background: linear-gradient(to right, #7700fc 0%, #ba00e3 100%);
   border-radius: 10px;
-  padding: 10px 0;
+  padding: 10px 5px;
   height: 50px;
   margin-top: 17px;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./ProfileDashboard.css";
 import Menubar from "./components/Menubar";
 import ProfileCard from "./components/ProfileCard";
+import Annoucements from "./components/Annoucements";
 
 const ProfileDashboard = () => {
   return (
@@ -17,6 +18,14 @@ const ProfileDashboard = () => {
               <ProfileCard title={"Support Queries"} number={"3"} />
               <ProfileCard title={"Messages"} number={"0"} />
             </div>
+          </div>
+        </div>
+        <div className="announcements">
+          <h3 id="announcements-text">Announcements</h3>
+          <div className="gray-area">
+            <Annoucements />
+            <Annoucements />
+            <Annoucements />
           </div>
         </div>
       </div>
