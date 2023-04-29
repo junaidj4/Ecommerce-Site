@@ -3,6 +3,7 @@ import "./ProfileDashboard.css";
 import Menubar from "./components/Menubar";
 import ProfileCard from "./components/ProfileCard";
 import Annoucements from "./components/Annoucements";
+import MyTemplates from "./components/MyTemplates";
 
 const ProfileDashboard = () => {
   return (
@@ -20,12 +21,17 @@ const ProfileDashboard = () => {
             </div>
           </div>
         </div>
-        <div className="announcements">
-          <h3 id="announcements-text">Announcements</h3>
-          <div className="gray-area">
-            <Annoucements />
-            <Annoucements />
-            <Annoucements />
+        <div className="other-section">
+          <div className="announcements">
+            <h3 id="announcements-text">Announcements</h3>
+            <div className="gray-area">
+              <Annoucements />
+              <Annoucements />
+              <Annoucements id="last" />
+            </div>
+          </div>
+          <div className="my-templates">
+            <MyTemplates />
           </div>
         </div>
       </div>

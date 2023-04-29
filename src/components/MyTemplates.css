@@ -1,0 +1,34 @@
+#temp-text {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.temp-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e8eced;
+  /* padding: 50px 150px; */
+  border-radius: 19px;
+}
+.temp-area img {
+  padding: 30px 250px 10px;
+}
+.temp-area p {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+.temp-area h3 {
+  font-weight: 700;
+  color: #565758;
+  margin-bottom: 8px;
+}
+.shop-button {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 11px 0 25px 0px;
+  background: #7700fc;
+  background: linear-gradient(to right, #7700fc 0%, #ba00e3 100%);
+}

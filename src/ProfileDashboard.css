@@ -24,19 +24,34 @@
   align-items: center;
   width: 100%;
 }
+.other-section {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 30px;
+}
 
 .announcements {
   display: flex;
   /* align-items: center; */
   /* justify-content: center; */
+  margin-top: 35px;
   flex-direction: column;
 }
 
 #announcements-text {
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .gray-area {
   background-color: #e8eced;
   border-radius: 19px;
+  padding-bottom: 144px;
+}
+
+.my-templates {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
