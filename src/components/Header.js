@@ -4,8 +4,19 @@ import styled from "styled-components";
 import CartIcon from "./CartIcon";
 import Nav from "./Nav";
 import Searchbar from "./Searchbar";
+import LoginModal from "./LoginModal";
+import SignUpModal from "./SignUpModal";
 
-const Header = () => {
+function Header({
+  openLoginModal,
+  setOpenLoginModal,
+  openSignupModal,
+  setOpenSignupModal,
+}) {
+  // const handleOpenModal = () => {
+  //   setOpenModal(true);
+  // };
+
   return (
     <MainHeader>
       <div className="Leftside">
@@ -19,9 +30,27 @@ const Header = () => {
         <div className="upside">
           <Searchbar />
           <CartIcon />
-          <NavLink to="/login" className="navbar-link login--link">
-            <p>Login / Sign Up</p>
-          </NavLink>
+          {/* <NavLink to="/login" className="navbar-link login--link"> */}
+          <p
+            onClick={() => {
+              setOpenLoginModal(true);
+            }}
+          >
+            Login /
+          </p>
+          {console.log("Hello", openLoginModal)}
+          {openLoginModal && <LoginModal />}
+          {/* </NavLink> */}
+          {/* <NavLink to="/signup" className="navbar-link signup--link"> */}
+          <p
+            onClick={() => {
+              setOpenSignupModal(true);
+            }}
+          >
+            Sign Up
+          </p>
+          {openSignupModal && <SignUpModal />}
+          {/* </NavLink> */}
         </div>
         <div className="downside">
           <p>
@@ -34,7 +63,7 @@ const Header = () => {
       </div>
     </MainHeader>
   );
-};
+}
 
 const MainHeader = styled.header`
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,7 +97,7 @@ padding: 0 4.8rem;
   .upside p {
     color: ${({ theme }) => theme.colors.white};
     font-size: 14px;
-    width: 150px;
+    width: 104px;
     display: flex;
     align-items: center;
     font-family: "Urbanist";
@@ -76,6 +105,11 @@ padding: 0 4.8rem;
     justify-content:right;
     cursor:pointer;
   }
+
+  .navbar-link login--link p{
+    margin-left:50px;
+  }
+
   .downside{
     display:flex;
     justify-content:center;

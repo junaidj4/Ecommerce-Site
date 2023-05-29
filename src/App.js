@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Search from "./Search";
 import Home from "./Home";
@@ -13,8 +13,13 @@ import Header from "./components/Header";
 import ProductPage from "./ProductPage";
 import ProfileDashboard from "./ProfileDashboard";
 import ProfileSites from "./ProfileSites";
+import LoginModal from "./components/LoginModal";
+import SignUpModal from "./components/SignUpModal";
 
 const App = () => {
+  const [openLoginModal, setOpenLoginModal] = useState(false);
+  const [openSignupModal, setOpenSignupModal] = useState(false);
+
   const theme = {
     colors: {
       heading: "rgb(24 24 29)",
@@ -44,7 +49,12 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <Router>
         <GlobalStyle />
-        <Header />
+        <Header
+          setOpenLoginModal={setOpenLoginModal}
+          openLoginModal={openLoginModal}
+          openSignupModal={openSignupModal}
+          setOpenSignupModal={setOpenSignupModal}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
@@ -55,6 +65,8 @@ const App = () => {
           <Route path="/productpage" element={<ProductPage />} />
           <Route path="/profile/dashboard" element={<ProfileDashboard />} />
           <Route path="/profile/sites" element={<ProfileSites />} />
+          {/* <Route path="/login" element={<LoginModal />} />
+          <Route path="/signup" element={<SignUpModal />} /> */}
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

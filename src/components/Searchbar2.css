@@ -24,7 +24,7 @@
   font-family: "Urbanist";
   font-weight: 600;
 }
-input {
+.text input {
   background-color: transparent;
   height: 100%;
   font-size: 1 rem;
